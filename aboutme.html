@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Reagan</title>
+        <style type=text/css>   
+            body   
+            {  
+            height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;  
+            font-family: sans-serif;  
+            }  
+            header {  
+            background-color: pink;  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            box-shadow: 0 0 5px 0 black;  
+            }  
+            header * {  
+            display: inline;  
+            }  
+            header li {  
+            margin: 20px;  
+            }  
+            header li a {  
+            color: blue;  
+            text-decoration: none;  
+            }  
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color:lightyellow;">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="resumepage.html">Resume</a>
+                    </li>
+                    <li>
+                        <a href="contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="me">
+            <h1>Reagan</h1>
+            <img src="data:image/jpeg;base64,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" alt="Web Devolpment is a passion of mine." height="300" width="300">
+            <h3>Intro</h3>
+            <p>I go to Cedar Crest College and I'm majoring in biology and math.</p>
+            <h3>Hobbies</h3>
+            <div class="hobbies">
+                <p>
+                My favorite hobby is baking. I love how you start with basic ingredients and it turns into a dessert. 
+                I also love how it's a science experiment. My favorite thing to bake is all homemade cinnamon rolls. I also enjoy cake
+                decorating, but I'm not good so far, so I need to practice more.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

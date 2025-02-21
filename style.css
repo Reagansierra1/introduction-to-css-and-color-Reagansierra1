@@ -1,0 +1,62 @@
+
+
+.home h1{
+    color: pink;
+  }
+
+.home p{
+    color: purple;
+  }
+
+.me h1 {
+    color: blueviolet;
+}
+
+.me p {
+    color: darkolivegreen;
+}
+
+.hobbies p{
+    color:rgba(236, 77, 28, 0.795);
+}
+
+.name label{
+    color:red;
+}
+
+
+.name input{
+    color:blue;
+    background-color: aquamarine;
+}
+
+.email label{
+    color:yellow;
+}
+
+
+.email input{
+    color:palevioletred;
+    background-color: hotpink;
+}
+
+
+.subject label{
+    color:gold;
+}
+
+
+.subject input{
+    color:purple;
+    background-color: darkseagreen;
+}
+
+.message label{
+    color:orangered;
+}
+
+
+.message textarea{
+    color:powderblue;
+    background-color: seagreen;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Reagan</title>
+        <style type=text/css>   
+            body   
+            {  
+            height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;  
+            font-family: sans-serif;  
+            }  
+            header {  
+            background-color: pink;  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            box-shadow: 0 0 5px 0 black;  
+            }  
+            header * {  
+            display: inline;  
+            }  
+            header li {  
+            margin: 20px;  
+            }  
+            header li a {  
+            color: blue;  
+            text-decoration: none;  
+            }  
+        </style>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color:lightblue ;">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="resumepage.html">Resume</a>
+                    </li>
+                    <li>
+                        <a href="contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <form>
+            <div class="name">
+                <label for="Name">Name:</label><br>
+                <input type="text" id="Name" name="Name"><br>
+            </div>
+            <div class="email">
+                <label for="Email">Email:</label><br>
+                <input type="email" id="Email" name="Email"><br>
+            </div>
+            <div class="subject">
+                <label for="Subject">Subject:</label><br>
+                <input type="text" id="Subject" name="Subject"><br>
+            </div>
+            <div class="message">
+                <label for="Message">Message:</label><br>
+                <textarea id="Message" name="Message" rows="6"></textarea><br>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
